@@ -1,0 +1,17 @@
+:root {
+  --primary: #ffffff;
+  --primaryLight: #e8e8e8;
+  --primaryDark: #d0d0d0;
+  --secondary: #000000;
+  --secondaryLight: #7b7b7b;
+  --secondaryDark: #1a1a1a;
+  --xs-space: 0.5rem;
+  --sm-space: 1rem;
+  --md-space: 1.5rem;
+  --lg-space: 2rem;
+  --xlg-space: 4rem;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

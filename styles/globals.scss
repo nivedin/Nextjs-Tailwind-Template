@@ -1,0 +1,16 @@
+@use "theme";
+@use "reset";
+
+main {
+  overflow-x: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: light;
+  }
+  body {
+    color: var(--secondary);
+    background: var(--primary);
+  }
+}
